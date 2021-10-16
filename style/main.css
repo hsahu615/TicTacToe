@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: skyblue;
+  color: white;
+}
+
+.board{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  float: right;
+  margin-top: 150px;
+  margin-right: 600px;
+  flex-wrap: wrap;
+}
+
+.box{
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 100px;
+  background-color: white;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  box-sizing: border-box;
+}
